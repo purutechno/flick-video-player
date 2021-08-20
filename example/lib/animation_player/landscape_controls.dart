@@ -81,7 +81,6 @@ class AnimationPlayerLandscapeControls extends StatelessWidget {
                         SizedBox(
                           width: 10,
                         ),
-                        FlickSoundToggle(size: 30),
                         SizedBox(
                           width: 20,
                         ),
@@ -98,12 +97,6 @@ class AnimationPlayerLandscapeControls extends StatelessWidget {
                               ),
                             ],
                           ),
-                        ),
-                        Expanded(
-                          child: Container(),
-                        ),
-                        FlickFullScreenToggle(
-                          size: 30,
                         ),
                       ],
                     ),
